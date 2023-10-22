@@ -334,8 +334,15 @@
   grid-template-rows: repeat(2, min-content);
   gap: 30px;
 }
+dialog:not([open]) {
+  pointer-events: none;
+  opacity: 0;
+} 
 
 .dialog {
+  position: fixed;
+  inset: 0;
+  align-self: ;
   border: 2px solid var(--main-color);
   font-family: var(--accent-font);
   font-size: 14px;
@@ -347,6 +354,7 @@
     clamp(1.90625rem, 2.7091rem + -0.892vw, 2.5rem)
     clamp(1.78125rem, 1.908rem + -0.1408vw, 1.875rem)
     clamp(1.84375rem, 2.7311rem + -0.9859vw, 2.5rem);
+  transition: opacity 0.3s ease-in-out;  
 }
 
 .dialog::backdrop {
