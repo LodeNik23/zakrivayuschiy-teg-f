@@ -3,4 +3,4 @@
 SSH: git@github.com:LodeNik23/zakrivayuschiy-teg-f.git
 https: https://github.com/LodeNik23/zakrivayuschiy-teg-f.git
 
-Опубликован:
+Опубликован:https://lodenik23.github.io/zakrivayuschiy-teg-f/
