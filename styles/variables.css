@@ -1,8 +1,8 @@
 /* Root variables */
 
 :root {
-  --main-font: "Inter", sans-serif; /*main-font-family*/
-  --accent-font: "Press Start 2P", monospace; /*fantasy-font-family*/
+  --main-font: "Inter", sans-serif;
+  --accent-font: "Press Start 2P", monospace;
   --heart-color: #ff0000;
   --background-image: repeating-linear-gradient(
       to left,

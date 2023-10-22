@@ -221,6 +221,7 @@
   color: var(--button-text-color);
   font-weight: 400;
   mix-blend-mode: difference;
+  line-height: 90%;
 }
 
 .button {
@@ -328,10 +329,6 @@
   inline-size: 21px;
 }
 
-.dialog::backdrop {
-  background-color: rgb(0 0 0 / 0.75);
-}
-
 .dialog[open] {
   display: grid;
   grid-template-rows: repeat(2, min-content);
@@ -378,10 +375,6 @@
   inline-size: 100%;
   text-transform: uppercase;
   padding: 10px 0;
-}
-
-.button__text {
-  line-height: 90%;
 }
 
 /*Filters*/
