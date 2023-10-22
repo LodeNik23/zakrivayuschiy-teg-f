@@ -138,7 +138,8 @@
 .card {
   border: 2px solid var(--main-color);
   background: var(--page-background);
-  max-inline-size: 700px;
+  min-width: clamp(22.9375rem, 15.6092rem + 31.2676vw, 43.75rem);
+  /* max-inline-size: 700px; */
 }
 
 .card__title {
@@ -263,8 +264,8 @@
 }
 
 .button:focus {
-  /* border: none; */
-  outline: none;
+  border: none; 
+  
 }
 
 .button:focus-visible {
