@@ -19,7 +19,7 @@
 :root.theme-dark {
   --text-font-weight: var(--font-wght-drk);
   --page-background: var(--blk-clr, #000);
-  --main-color: var(--gr-clr, #00cc14); 
+  --main-color: var(--gr-clr, #00cc14);
   --main-gradient-color: var(--blk-clr, #000);
   --first-gradient-color: var(--gr-7-clr, #007f0c);
   --second-gradient-color: var(--scnd-gr-clr-drk, #004306);
